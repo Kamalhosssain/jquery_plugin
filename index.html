@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>js/jQ</title>
+	<!--css links-->
+	<link rel="stylesheet" href="vendor/lightbox/dist/css/lightbox.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-4">
+			<div class="warraper text-center">
+				<h2>number of projects</h2>
+				<h3 class="counter">12345</h3>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="warraper text-center">
+				<h2>number of projects</h2>
+				<h3 class="counter">12345</h3>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="warraper text-center">
+				<h2>number of projects</h2>
+				<h3 class="counter">12345</h3>
+			</div>
+		</div>
+
+	</div>
+</div>
+<!--mixitup start-->
+<section class="mixit">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="text-center mt-3">
+				<a href="#" data-filter="all" class="btn btn-primary">ALL</a>
+				<a href="#" data-filter=".web" class="btn btn-secondary">Web design</a>
+				<a href="#" data-filter=".dev" class="btn btn-warning">Web development</a>
+				<a href="#" data-filter=".wp" class="btn btn-danger">word press</a>
+			
+				<a href="#" data-sort="order:asc" class="btn btn-dark">Ascending</a>
+				<a href="#"  data-sort="order:descending" class="btn btn-dark">Descending</a>
+			</div>
+			</div>
+		</div>
+
+
+		<div class="row mt-5" id="hello">
+
+			<div class="col-lg-3 mix web mb-3"  data-order="1">
+				<div class="d_img">
+					<img src="images/img1.png" class="w-100" alt="image">
+				</div>
+			</div>
+
+			<div class="col-lg-3 mix web mb-3" data-order="2"> 
+				<div class="d_img">
+					<img src="images/img2.png" class="w-100" alt="image">
+				</div>
+			</div>
+ 
+			<div class="col-lg-3 mix dev mb-3" data-order="3">
+				<div class="d_img">
+					<img src="images/img3.png" class="w-100" alt="image">
+				</div>
+			</div>
+
+			<div class="col-lg-3 mix dev mb-3" data-order="4">
+				<div class="d_img">
+					<img src="images/img3.png" class="w-100" alt="image">
+				</div>
+			</div>
+
+			<div class="col-lg-3 mix wp mb-3" data-order="5">
+				<div class="d_img">
+					<img src="images/coffee2.png" class="w-100" alt="image">
+				</div>
+			</div>
+ 
+			<div class="col-lg-3 mix wp mb-3" data-order="6">
+				<div class="d_img">
+					<img src="images/coffee3.png" class="w-100" alt="image">
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+<!--mixitup end-->
+<hr>
+
+<!--lightbox start-->
+<section class="lightbox">
+	<div class="container">
+		<div class="row justify-content-center">
+		<div class="col-lg-4">
+			<div class="L_img">
+				<a href="images/banner.png" data-lightbox="b_img" data-title="My caption">
+				<img src="images/coffee3.png" class="img-fluid" alt="coffee">
+				</a>
+			</div>
+		</div>	
+		</div>
+	</div>
+</section>
+<!--lihgtbox end-->
+
+	
+<script src="js/jquery.min.js"></script>
+<script src="vendor/waypoints/waypoints.min.js"></script>
+<script src="vendor/counterup/jquery.counterup.min.js"></script>
+<script src="vendor/mixitup/mixitup.min.js"></script>
+<script src="vendor/js/lightbox.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
